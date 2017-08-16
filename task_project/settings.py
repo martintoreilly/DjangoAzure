@@ -39,6 +39,7 @@ SECRET_KEY = '(1!=a^to508v$u-h(c22*%$$&%*4&n1=qwa*35j5_4$&244#jy'
 DEBUG = True
 
 ALLOWED_HOSTS = [u'task-based-search.azurewebsites.net',
+                 u'mor-test-p5-tbs.azurewebsites.net',
                  u'127.0.0.1', u'localhost']
 
 

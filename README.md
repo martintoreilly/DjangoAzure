@@ -1,3 +1,8 @@
-# DjangoAzure [![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
+# tasks-interface-ati
+## Notes
+Server uses Django, server needs "requests" library
+Don't share "bing.key" with people! secret API key
 
-Django makes it easier to build better Web apps more quickly and with less code.[Get started with Django](https://www.djangoproject.com/start/)
+## Local installation / running
+To install dependencies run `pip install -r requirements.txt`
+To run Django server locally, in the main project directory run `./manage.py runserver`

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+
+<html>
+
+
+<head>
+	<!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="{% static 'main/css/materialize.min.css' %}" media="screen,projection" />
+	<link type="text/css" rel="stylesheet" href="{% static 'main/css/slick.css' %}" media="screen,projection" />
+	<link type="text/css" rel="stylesheet" href="{% static 'main/css/font-awesome.css' %}" media="screen,projection" />
+	<link type="text/css" rel="stylesheet" href="{% static 'main/css/style.css' %}" media="screen,projection" />
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+
+<body>
+
+	<div class="">
+		<div class="row top-row">
+			<nav class="nav-extended">
+				<div class="nav-wrapper blue">
+					<div class="search-bar">
+						<i class="material-icons search-icon center-align">search</i>
+						<div class="chips"></div>
+
+					</div>
+					<hr>
+
+
+				</div>
+				<div class="nav-content  light-blue" id="menu">
+
+					<nav class="clean">
+						<div class="nav-wrapper path-display-wrapper">
+							<div class="path-display white-text">
+
+							</div>
+						</div>
+
+						<div id="retract-carousel" class="right">
+							<div id="bookmarks" class="tools">
+								<i class="fa fa-bookmark fa-hover-show fa-2x tooltipped" data-position="bottom" data-delay="30" data-tooltip="View saved links" aria-hidden="true"></i>
+								<i class="fa fa-bookmark-o fa-hover-hidden fa-2x tooltipped" data-position="bottom" data-delay="30" data-tooltip="View saved links" aria-hidden="true"></i>
+							</div>
+							<div id="retract-arrow" class="rotateComplete tools">
+								<i class="fa fa-caret-up fa-2x tooltipped" data-position="bottom" data-delay="30" data-tooltip="View/Hide Tasks" aria-hidden="true"></i>
+							</div>
+						</div>
+					</nav>
+
+
+
+
+
+					<div class="container valign-wrapper" id="carousel">
+						<div id="left-arrow" class="col s1">
+							<i class="fa fa-chevron-left fa-3x left" aria-hidden="true"></i>
+						</div>
+						<div class="col s10">
+							<div class="slick-slider">
+
+
+
+
+
+							</div>
+						</div>
+						<div id="right-arrow" class="col s1">
+							<i class="fa fa-chevron-right fa-3x right" aria-hidden="true"></i>
+						</div>
+					</div>
+			</nav>
+			</div>
+
+			<div class="row" id="main-page">
+
+				<div class="sidewrap left col m3" id="side-menu">
+					<div class="card-panel sidenav">
+
+					</div>
+				</div>
+
+				<div class="col m9" id="main-body">
+
+
+
+
+					<div class="result-display">
+
+					</div>
+
+
+				</div>
+			</div>
+
+		</div>
+
+
+	</div>
+
+
+
+
+
+	<!--Import jQuery before materialize.js-->
+	<script type="text/javascript" src="{% static "main/js/jquery-3.2.1.min.js" %}"></script>
+	<script type="text/javascript" src="{% static "main/js/materialize.min.js" %}"></script>
+	<script type="text/javascript" src="{% static "main/js/slick.js" %}"></script>
+	<script type="text/javascript" src="{% static "main/js/main.js" %}"></script>
+
+</body>
+
+
+
+</html>

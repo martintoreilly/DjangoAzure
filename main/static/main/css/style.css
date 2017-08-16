@@ -1,0 +1,210 @@
+
+
+/* the slides */
+nav .card-panel {
+	margin: 0 10px 10px 10px;
+}
+/* the parent */
+.slick-slider {
+}
+
+#carousel {
+	width: 95%;
+	padding-top: 20px;
+}
+
+#search {
+  height: 64px;
+  margin-bottom: 0px;
+} 
+
+.search-result-title {
+	font-size: 20px;
+}
+
+.search-result-link {
+	font-size: 12px;
+}
+
+.top-row {
+	margin-bottom: 0px;
+}
+
+.sidenav {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	height: 100%;
+}
+
+.row .sidewrap {
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+.result-display {
+	padding-left: 50px;
+}
+
+nav.clean {
+  background: none;
+  box-shadow: none;
+}
+nav.clean .breadcrumb {
+  color: white;
+}
+nav.clean .breadcrumb:before {
+  color: white;
+}
+
+nav div.chips {
+	margin-bottom: 0;
+	display: inline-block;
+	width: 99.7%;
+	margin-left: -5%;
+	padding-left: 5%;
+	margin-right: -5%;
+	padding-right: 5%;
+	border-bottom: none;
+}
+
+hr {
+	margin: 0;
+	border-top-width: 0px;
+	border-bottom-width: 5px;
+}
+
+nav div.chips.focus {
+	border-bottom: none;
+}
+
+
+
+nav i.search-icon {
+	display: inline-block;
+	width: 5%;
+}
+
+
+nav .card-panel i {
+	display: inline-block;
+	padding: 10px;
+	height: auto;
+}
+
+.card-panel h5 {
+	display: inline-block;
+}
+
+
+.sidenav-list {
+	border: none;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+.sidenav-list .collapsible-header {
+	border-bottom: none;
+}
+
+.sidenav-list .collapsible-body {
+	border-bottom: none;
+}
+
+.sidenav-list .collapsible-header i {
+	font-size: 1rem;
+}
+
+.rotate {
+    -moz-transition: all 0.1s linear;
+    -webkit-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+
+.rotate.down {
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.rotateComplete {
+    -moz-transition: all 0.1s linear;
+    -webkit-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+
+.rotateComplete.down {
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.collapsible-body {
+	padding: 0px;
+}
+
+.slick-slider i {
+	font-size: 30px;
+}
+
+#main-page {
+	margin-bottom: 0px;
+}
+
+.save {
+	padding: 10px;
+	height: 70px;
+	width: 70px;
+	text-align: center;
+	line-height: 70px;
+}
+
+.search-result {
+	padding-bottom: 20px;
+}
+
+.fa-floppy-o {
+	transition-property: font-size;
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+
+
+.fa-floppy-o:hover {
+    font-size: 40px;
+}
+
+#retract-carousel {
+	display: inline-block;
+	padding-right: 30px;
+	height: inherit;
+}
+
+
+.path-display-wrapper {
+	padding-left: 30px;
+	display: inline-block;
+}
+
+.tools {
+	display: inline-block;
+}
+
+#bookmarks {
+	padding-right: 20px;
+	cursor: pointer;
+}
+
+#retract-arrow i {
+	height: auto;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+* > .fa.fa-hover-show,
+*:hover > .fa.fa-hover-hidden {
+  display: none;
+}
+*:hover > .fa.fa-hover-show {
+  display: inline-block;
+}
+
